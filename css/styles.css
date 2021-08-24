@@ -4,6 +4,8 @@
   --color-accent: rgb(255, 52, 0);
   --color-headings: rgb(27, 7, 96);
   --color-body: rgb(87, 78, 115);
+  --color-border: #ccc;
+  --border-radius: 30px;
 }
 *,
 *::before,
@@ -225,14 +227,29 @@ a {
 
 .input {
   padding: 1.5rem 3rem;
-  border: 1px solid #ccc;
-  border-radius: 30px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
   outline: 0;
   color: var(--color-headings);
   font-size: 2rem;
 }
 ::placeholder {
   color: rgb(186, 180, 207);
+}
+
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+}
+.input-group .input {
+  flex-grow: 1;
+  border: 0;
+  padding: 1.5rem;
+}
+
+.input-group .btn {
+  margin: 4px;
 }
 
 @media screen and (min-width: 1024px) {
