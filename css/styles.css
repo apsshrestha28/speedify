@@ -24,6 +24,7 @@ body {
   color: var(--color-body);
   font-size: 2.4rem;
   line-height: 1.5; /*1.5 times current font-size */
+  margin: 2rem;
 }
 
 h1,
@@ -289,7 +290,7 @@ a {
 .plan__name {
   color: #fff;
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
 .plan__price {
@@ -334,4 +335,18 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media*/
+.media {
+  display: flex;
+}
+.media__title {
+  margin-top: 0;
+}
+.media__body {
+  margin: 0 2rem;
+}
+.media__image {
+  margin-top: 1rem;
 }
