@@ -12,51 +12,29 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div style="display:flex">
-      <div style="width:36%;padding:1rem;">
-        <div class="card card--secondary">
-          <div class="plan">
-            <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price"> $14</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">Easy start on the cloud</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item"> Unlimited Websites </li>
-                <li class="list__item"> 100 GB SSD Storage </li>
-                <li class="list__item"> 3 GB RAM </li>
-              </ul>
-            </div>
-            <button class="btn btn--outline btn--block"> buy now</button>
-          </div>
-        </div>
-      </div>
-      <div style="width:36%; padding:1rem">
+    <div style="width:50%; padding:4rem">
+      <div class="plan plan--popular ">
         <div class="card card--primary">
-          <div class="plan plan--popular">
-            <header class="card__header">
-              <h3 class="plan__name">Business</h3>
-              <span class="plan__price"> $24</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--primary badge--small">20% OFF</span>
-              <span class="plan__description">Optimal Cloud Experience</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item"> Unlimited Websites </li>
-                <li class="list__item"> 100 GB SSD Storage </li>
-                <li class="list__item"> 3 GB RAM </li>
-                <li class="list__item"> 2 CPU Cores</li>
-              </ul>
-            </div>
-            <button class="btn btn--primary btn--block"> buy now</button>
+          <header class="card__header">
+            <h3 class="plan__name">Business</h3>
+            <span class="plan__price">$24</span>
+            <span class="plan__billing-cycle">/month</span>
+            <span class="badge badge--primary badge--small">20% OFF</span>
+            <span class="plan__description">Optimal Cloud Experience</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item"> Unlimited Websites </li>
+              <li class="list__item"> 100 GB SSD Storage </li>
+              <li class="list__item"> 3 GB RAM </li>
+              <li class="list__item"> 2 CPU Cores</li>
+            </ul>
           </div>
+          <button class="btn btn--primary btn--block"> buy now</button>
         </div>
       </div>
     </div>
+
     <div class="media">
       <div class="media__image">
         <svg class="icon icon--primary">
@@ -68,5 +46,26 @@
         <p>Our cloud plans include easy onboarding for new and existing sites and managed Wordpress and WooCommerce auto-updates.</p>
       </div>
     </div>
+
+    <blockquote class="quote">
+      <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas culpa nihil aliquid voluptate nisi rerum quia quasi pariatur facilis eligendi?</p>
+
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">Harry Arnold</h3>
+            <p class="quote__company">Speedify Company CEO</p>
+          </div>
+        </div>
+      </footer>
+
+    </blockquote>
+
+
   </body>
 </html>
