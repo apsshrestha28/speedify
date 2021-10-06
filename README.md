@@ -1,7 +1,5 @@
 # Speedify_plan
 
-Implemented different speed plan options project using HTML, CSS
+Implemented UI using front-end technologies like HTML and CSS to develop interactive, mobile first web pages.
 
-Technologies  : HTML, CSS
-
-
+Technologies : HTML, CSS
