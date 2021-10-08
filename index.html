@@ -12,7 +12,30 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div style="width:50%; padding:4rem">
+
+   <div class="grid grid--1x3">
+
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">Entry</h3>
+            <span class="plan__price">$14</span>
+            <span class="plan__billing-cycle">/month</span>
+            <span class="badge badge--secondary badge--small">10% OFF</span>
+            <span class="plan__description">Easy start on the cloud</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item"> Unlimited Websites </li>
+              <li class="list__item"> Unlimited Bandwidth </li>
+              <li class="list__item"> 100 GB SSD Storage </li>
+              <li class="list__item"> 3 GB RAM </li>
+            </ul>
+          </div>
+          <button class="btn btn--secondary btn--block"> buy now</button>
+        </div>
+      </div>
+
       <div class="plan plan--popular ">
         <div class="card card--primary">
           <header class="card__header">
@@ -25,6 +48,7 @@
           <div class="card__body">
             <ul class="list list--tick">
               <li class="list__item"> Unlimited Websites </li>
+              <li class="list__item"> Unlimited Bandwidth </li>
               <li class="list__item"> 100 GB SSD Storage </li>
               <li class="list__item"> 3 GB RAM </li>
               <li class="list__item"> 2 CPU Cores</li>
@@ -33,8 +57,33 @@
           <button class="btn btn--primary btn--block"> buy now</button>
         </div>
       </div>
-    </div>
+    
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">Business plus</h3>
+            <span class="plan__price">$54</span>
+            <span class="plan__billing-cycle">/month</span>
+            <span class="badge badge--secondary badge--small">10% OFF</span>
+            <span class="plan__description">Easy start on the cloud</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item"> Unlimited Websites </li>
+              <li class="list__item"> Unlimited Bandwidth </li>
+              <li class="list__item"> 100 GB SSD Storage </li>
+              <li class="list__item"> 3 GB RAM </li>
+              <li class="list__item"> 2 CPU Cores</li>
+            </ul>
+          </div>
+          <button class="btn btn--secondary btn--block"> buy now</button>
+        </div>
+      </div>
 
+    </div>
+  
+    <br/>
+     <br/>
     <div class="media">
       <div class="media__image">
         <svg class="icon icon--primary">
@@ -65,7 +114,6 @@
       </footer>
 
     </blockquote>
-
 
   </body>
 </html>
