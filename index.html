@@ -12,49 +12,32 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item1</h2>
-        <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
-        </svg>      
-      </header>
-      <div class="collapsible__content">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-      </div>
-    </div>
-
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, mollitia aperiam.</p>
-      </header>
-      <div style="width:33%;padding: 4rem;">
-        <div class="card card--primary">
-          <header class="card__header">Card Title</header>
-          <div class="card__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perspiciatis assumenda pariatur neque ab nobis itaque corporis odit at aliquid.
-        </div>
-     
-        </div>
-
+    <nav class="nav collapsible">
+      <a href="/"> <img class="nav__logo" src="images/high-speed.png" alt="nav logo">SPEEDIFY</a>
+    
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+    
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">HOSTING</a></li>
+        <li class="nav__item"><a href="#">VPN</a></li>
+        <li class="nav__item"><a href="#">DOMAIN</a></li>
+        <li class="nav__item"><a href="#">PRICING</a></li>
+      </ul>
+    </nav>
+    <section class="block block--dark block--skewed-left intro">
+      <div class="container grid grid--1x2">
+        <header class="block__header intro__content">
+          <h1 class="block__heading">Cloud Hosting For Pros</h1>
+          <p class="intro__tagline">Deploy your website in less than 60 seconds.</p>
+          <a href="#" class="btn btn--accent">get started</a>
+        </header>
+        <img class="intro__image" src="images/banner.png" alt="" />
       </div>
     </section>
 
-    <section class="block block--dark block--skewed-right container">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, mollitia aperiam.</p>
-      </div>
-    </section>
-  
-    <section class="block block--dark block--skewed-left container">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, mollitia aperiam.</p>
-      </div>
-    </section>
-
-    <div class="grid grid--1x3">
+    <div class="plans grid grid--1x3">
 
       <div class="plan">
         <div class="card card--secondary">
