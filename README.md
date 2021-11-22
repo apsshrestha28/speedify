@@ -1,4 +1,4 @@
-# Speedify_plan
+# Speedify
 
 Converted wireframes using front-end technologies like HTML, CSS and JavaScript to develop responsive, mobile first approach web pages.
 
